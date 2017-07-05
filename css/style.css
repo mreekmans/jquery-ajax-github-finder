@@ -1,0 +1,11 @@
+.navbar{
+    border-radius: 0;
+}
+
+.avatar{
+    width: 100%;
+}
+
+.user-info span.glyphicon{
+    margin-right: 1em;
+}

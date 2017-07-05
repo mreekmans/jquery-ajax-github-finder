@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JQuery-AJAX Github Finder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">JQuery-AJAX Github Finder</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Search for Github users</h1>
+        <p class="lead">Enter a username to fetch a users profile and repository info from Github.</p>
+        <form>
+            <div class="form-group">
+                <input type="email" class="form-control" id="searchUser" placeholder="Search for user...">
+            </div>
+        </form>
+        <br>
+        <div id="profile"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
